@@ -1,0 +1,105 @@
+
+import 'dart:html';
+import "dart:async";
+
+var x = ["AB", "BB", "BC","BD","CD","DD","DE","DF","EF","FF",
+         "FG","FH","GH","HH","HI","HJ","HK","HL","IL","JL","JM",
+        "JN","JO","JP","KP","LP","LQ","LR","MR","NR","NQ","NP",
+         "OP","PP","PQ","PR","PS","PT","QT","RT","ST","TT","UT"]; 
+
+void main() async{
+
+for (int i = 0; i < x.length; i++) { 
+    querySelector(("#" + x[i]).toString());
+
+ 
+
+    querySelector("#AB").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#BB").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#BC").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#BD").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#CD").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#DD").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#DE").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#DF").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#EF").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#FF").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#FG").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#FH").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#GH").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#HH").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#HI").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#HJ").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#HK").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#HL").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#IL").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#JL").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#JM").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#JN").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#JO").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#JP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#KP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#LP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#LQ").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#LR").style.background = "green";  
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#MR").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#NR").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#NQ").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#NP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#OP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#PP").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#PQ").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#PR").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#PS").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#PT").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#QT").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#RT").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#ST").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#TT").style.background = "green";
+  await new Future.delayed(const Duration(seconds : 1));
+    querySelector("#UT").style.background = "green";
+ await new Future.delayed(const Duration(seconds : 1));
+
+  }
+}
