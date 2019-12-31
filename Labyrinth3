@@ -1,0 +1,66 @@
+
+import 'dart:html';
+import "dart:async";
+
+var x = ["AB","BB","BC","BD","BE","BF","CF","EF","FF","FG","FH","GH","EH","DH","DI","DJ","DK",
+"DL","EL",
+         "Fl",
+         "GL",
+         "HL","IL","JL","JM","KN","LN",
+ "LO","LP", "MP", "NP", "NQ", "NR","QR","PR","PS","PT","QT","RT","ST","TT","UT"]; 
+
+void main() async{
+
+
+for (int i = 0; i < x.length; i++) { 
+    querySelector(("#" + x[i]).toString());
+ 
+
+    querySelector("#AB").style.background = "green";
+    querySelector("#BB").style.background = "green";
+    querySelector("#BC").style.background = "green";
+    querySelector("#BD").style.background = "green";
+    querySelector("#BE").style.background = "green";
+    querySelector("#BF").style.background = "green";
+    querySelector("#CF").style.background = "green";
+    querySelector("#DF").style.background = "green";
+    querySelector("#EF").style.background = "green";
+    querySelector("#FF").style.background = "green";
+    querySelector("#FG").style.background = "green";
+    querySelector("#FH").style.background = "green";
+    querySelector("#GH").style.background = "green";
+    querySelector("#EH").style.background = "green";
+    querySelector("#DH").style.background = "green";
+    querySelector("#DI").style.background = "green";
+    querySelector("#DJ").style.background = "green";
+    querySelector("#DK").style.background = "green";
+    querySelector("#DL").style.background = "green";
+    querySelector("#EL").style.background = "green";
+  querySelector("#FL").style.background = "green";
+  querySelector("#GL").style.background = "green";
+  querySelector("#HL").style.background = "green";
+  querySelector("#IL").style.background = "green";
+  querySelector("#JL").style.background = "green";
+  querySelector("#JM").style.background = "green";
+  querySelector("#JN").style.background = "green";
+  querySelector("#KN").style.background = "green";
+  querySelector("#LN").style.background = "green";
+  querySelector("#LO").style.background = "green";
+  querySelector("#LP").style.background = "green";
+  querySelector("#MP").style.background = "green";
+  querySelector("#NP").style.background = "green";
+  querySelector("#NQ").style.background = "green";
+  querySelector("#NR").style.background = "green";
+  querySelector("#OR").style.background = "green";
+  querySelector("#PR").style.background = "green";
+  querySelector("#PS").style.background = "green";
+  querySelector("#PT").style.background = "green";
+  querySelector("#QT").style.background = "green";
+  querySelector("#RT").style.background = "green";
+  querySelector("#ST").style.background = "green";
+  querySelector("#TT").style.background = "green";
+  querySelector("#UT").style.background = "green";
+
+   
+  }
+}
